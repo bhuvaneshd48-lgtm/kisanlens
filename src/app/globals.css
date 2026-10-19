@@ -1,0 +1,104 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --forest-bg: #0B1911;
+  --forest-card: #132A1E;
+  --forest-border: #1E3F2D;
+  --agri-green: #10B981;
+  --agri-gold: #F59E0B;
+  --agri-cyan: #06B6D4;
+  --agri-red: #EF4444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--forest-bg);
+  color: #E5E7EB;
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--forest-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--forest-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--agri-green);
+}
+
+/* Pulsing mic ring */
+@keyframes mic-ring {
+  0% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 20px rgba(245, 158, 11, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(245, 158, 11, 0);
+  }
+}
+
+.mic-active {
+  animation: mic-ring 1.5s infinite;
+}
+
+/* Scan laser line */
+@keyframes laser-scan {
+  0% { top: 0%; }
+  50% { top: 95%; }
+  100% { top: 0%; }
+}
+
+.scan-laser {
+  animation: laser-scan 2.5s ease-in-out infinite;
+}
+
+/* Severity bar fill animation */
+@keyframes fill-bar {
+  from { width: 0%; }
+}
+.animate-fill {
+  animation: fill-bar 1s ease-out forwards;
+}
+
+/* Glowing border */
+.glow-green {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3), inset 0 0 15px rgba(16, 185, 129, 0.05);
+}
+.glow-gold {
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3), inset 0 0 15px rgba(245, 158, 11, 0.05);
+}
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.3), inset 0 0 15px rgba(6, 182, 212, 0.05);
+}
+.glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.3), inset 0 0 15px rgba(239, 68, 68, 0.05);
+}
+
+/* Touch-friendly targets */
+.touch-target {
+  min-width: 48px;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

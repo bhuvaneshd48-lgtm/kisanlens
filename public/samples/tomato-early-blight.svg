@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="24" fill="#132A1E"/>
+  <!-- Leaf shape -->
+  <path d="M100 35 C60 55, 35 90, 45 130 C50 145, 65 158, 85 162 C90 163, 95 162, 100 160 C105 162, 110 163, 115 162 C135 158, 150 145, 155 130 C165 90, 140 55, 100 35Z" fill="#22C55E" opacity="0.85"/>
+  <!-- Leaf vein -->
+  <path d="M100 45 L100 155" stroke="#166534" stroke-width="2" fill="none"/>
+  <path d="M100 70 L75 55" stroke="#166534" stroke-width="1.5" fill="none"/>
+  <path d="M100 85 L68 72" stroke="#166534" stroke-width="1.5" fill="none"/>
+  <path d="M100 100 L65 90" stroke="#166534" stroke-width="1.5" fill="none"/>
+  <path d="M100 70 L125 55" stroke="#166534" stroke-width="1.5" fill="none"/>
+  <path d="M100 85 L132 72" stroke="#166534" stroke-width="1.5" fill="none"/>
+  <path d="M100 100 L135 90" stroke="#166534" stroke-width="1.5" fill="none"/>
+  <!-- Blight spots -->
+  <circle cx="78" cy="95" r="12" fill="#7C2D12" opacity="0.85"/>
+  <circle cx="118" cy="80" r="9" fill="#7C2D12" opacity="0.8"/>
+  <circle cx="90" cy="125" r="14" fill="#6B2108" opacity="0.75"/>
+  <circle cx="115" cy="115" r="8" fill="#7C2D12" opacity="0.7"/>
+  <circle cx="72" cy="72" r="7" fill="#92400E" opacity="0.65"/>
+  <circle cx="130" cy="105" r="10" fill="#7C2D12" opacity="0.7"/>
+  <!-- Yellow halo around spots -->
+  <circle cx="78" cy="95" r="16" fill="none" stroke="#FACC15" stroke-width="1" opacity="0.4"/>
+  <circle cx="90" cy="125" r="18" fill="none" stroke="#FACC15" stroke-width="1" opacity="0.35"/>
+  <!-- Label -->
+  <text x="100" y="188" text-anchor="middle" fill="#F87171" font-family="sans-serif" font-size="11" font-weight="bold">Tomato Early Blight</text>
+</svg>

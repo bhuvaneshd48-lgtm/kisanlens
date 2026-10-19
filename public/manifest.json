@@ -1,0 +1,20 @@
+{
+  "name": "KisanLens — Smart Farming, Zero Text",
+  "short_name": "KisanLens",
+  "description": "Zero-Text, Voice-and-Vision Smart Agricultural System for Indian Farmers",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0B1911",
+  "theme_color": "#0B1911",
+  "categories": ["agriculture", "productivity", "utilities"],
+  "lang": "en-IN",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

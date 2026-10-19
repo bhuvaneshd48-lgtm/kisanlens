@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" rx="24" fill="#132A1E"/>
+  <!-- Curled chilli leaf - main leaf curling upward -->
+  <path d="M100 170 C100 170, 60 130, 55 100 C50 70, 60 45, 80 35 C95 28, 100 30, 100 30" fill="#22C55E" opacity="0.75"/>
+  <!-- Curled edge (showing curl) -->
+  <path d="M100 30 C100 30, 105 28, 120 35 C140 45, 148 65, 140 85 C135 98, 125 105, 120 100 C115 92, 125 75, 130 60 C133 50, 125 42, 115 40 C108 38, 100 40, 100 45" fill="#16A34A" opacity="0.9"/>
+  <!-- The curl back (lighter shade showing underside) -->
+  <path d="M120 100 C125 105, 140 90, 145 75 C148 65, 145 52, 138 45 C132 40, 125 42, 130 55 C133 65, 128 85, 120 100Z" fill="#86EFAC" opacity="0.6"/>
+  <!-- Leaf vein -->
+  <path d="M100 165 C95 140, 75 110, 70 80 C68 65, 72 45, 85 37" stroke="#166534" stroke-width="2" fill="none"/>
+  <!-- Distortion lines showing virus damage -->
+  <path d="M78 60 C82 55, 90 58, 88 65" stroke="#DC2626" stroke-width="1" fill="none" opacity="0.6"/>
+  <path d="M72 80 C78 75, 88 78, 85 85" stroke="#DC2626" stroke-width="1" fill="none" opacity="0.5"/>
+  <path d="M65 100 C72 95, 82 98, 78 105" stroke="#DC2626" stroke-width="1" fill="none" opacity="0.5"/>
+  <!-- Small whitefly dots -->
+  <circle cx="115" cy="55" r="2" fill="white" opacity="0.8"/>
+  <circle cx="125" cy="70" r="1.5" fill="white" opacity="0.7"/>
+  <circle cx="108" cy="48" r="1.5" fill="white" opacity="0.6"/>
+  <circle cx="130" cy="80" r="2" fill="white" opacity="0.5"/>
+  <!-- Stem -->
+  <path d="M100 170 L100 180" stroke="#854D0E" stroke-width="3" fill="none"/>
+  <!-- Label -->
+  <text x="100" y="195" text-anchor="middle" fill="#F87171" font-family="sans-serif" font-size="11" font-weight="bold">Chilli Leaf Curl</text>
+</svg>
